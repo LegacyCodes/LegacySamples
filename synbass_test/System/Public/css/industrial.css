@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+fieldset {
+	border:none;
+	padding-right:0px;
+	padding-top:5px;
+}
+input {
+	background-color:rgb(241,242,242);
+}
+.secureDataAccess {
+	border:1px solid rgb(198,190,192);
+	padding:2px 5px;
+	margin-top:7px;
+	background-color:rgb(248,248,249);
+	color:rgb(198,190,192);
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:18px;
+}
+.form_secureDataAccess {
+	margin-left: -197.5px;
+	margin-top: -197.5px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	border:1px solid rgb(35,31,32);
+	background-color:rgb(242,242,243);
+	width:395px;
+}
+.div_secureDataAccess {
+	border: 1px solid rgb(188,190,192);
+	background-color:rgb(230,231,232);
+	width:360px;
+	padding:0 5px;
+}
+.username_div, .password_div {
+	margin:15px 10px;
+}
+.username, .password {
+	font-family:Verdana, Geneva, sans-serif;
+	color:rgb(153,153,153);
+	width:257px;
+	font-size:12px;
+	margin: 0 0 0.5em;
+	display:block;
+}
+.div_secureDataAccess .username_div input[type="password"] {
+	direction: ltr;
+	font-size: 16px;
+	padding-left:7px;
+	font-style:normal;
+	border:1px solid rgb(167,169,172);
+	height: 25px;
+	width: 250px;
+}
+.div_secureDataAccess .password_div input[type="password"] {
+	direction: ltr;
+	font-size: 16px;
+	padding-left:5px;
+	font-style:normal;
+	border:1px solid rgb(167,169,172);
+	height: 25px;
+	width: 127px;
+}
+#segundon {
+	width: 60px;
+	padding-left:7px;
+}
+#ternero {
+	width:40px;
+	padding-left:7px;
+}
+input[type="password"]:focus, input[type="text"]:focus {
+	background-color:rgb(180,221,192);
+	color:rgb(109,110,113);
+	outline:none;
+}
+.captcha {
+	border: 1px solid rgb(188,190,192);
+	margin-top:5px;
+	background-color:rgb(230,231,232);
+	width:230px;
+	padding:5px;
+}
+.captcha #captcha_img {
+	height: 27px;
+	float:left;
+	background-color:#FFF;
+	margin-left:2px;
+	width: 125px;
+	border:1px solid rgb(167,169,172);
+}
+.captcha input[type="text"] {
+	float:left;
+	margin-left:10px;
+	direction: ltr;
+	font-size: 13px;
+	padding-left:3px;
+	font-style:normal;
+	border:1px solid rgb(167,169,172);
+	height: 25px;
+	width: 85px;
+}
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+.submitSecure {
+	margin-top:10px;
+	width:100px;
+}
+.submitSecure input[type="submit"] {
+	border:1px solid rgb(167,169,172);
+	background-color:rgb(248,248,249);
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	width: 100px;
+	height: 27px;
+	color: rgb(143,143,143);
+}

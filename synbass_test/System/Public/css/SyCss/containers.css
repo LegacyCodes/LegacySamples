@@ -1,0 +1,68 @@
+@charset "utf-8";
+/*-----------------------------------------
+   file: containers.css     type = text/css
+   Written on: 9/10/2012    Section: A92W 
+  -----------------------------------------*/
+/*-----------------------------------------
+   Containers Width Section: 
+  -----------------------------------------*/
+.container-980px{width:980px;}
+.container-960px{width:960px;}
+.container-480px{width:480px;}
+.container-320px{width:320px;}
+.container-240px{width:240px;}
+.container-192px{width:192px;}
+.container-160px{width:160px;}
+.container-120px{width:120px;}
+.container-80px{width:80px;}
+.container-64px{width:64px;}
+.container-60px{width:60px;}
+.container-48px{width:48px;}
+.container-40px{width:40px;}
+
+.container-620px{width:620px;}
+.container-640px{width:640px;}
+.container-720px{width:720px;}
+.container-768px{width:768px;}
+.container-800px{width:800px;}
+.container-840px{width:840px;}
+.container-880px{width:880px;}
+.container-896px{width:896px;}
+.container-900px{width:900px;}
+.container-912px{width:912px;}
+.container-920px{width:920px;}
+/*-----------------------------------------
+   Positions Section: 
+  -----------------------------------------*/
+.pos-relative{position:relative;}
+.pos-absolute{position:absolute;}
+.pos-static{position:static;}
+/*-----------------------------------------
+   Margin & Auto Height Section: 
+  -----------------------------------------*/
+.margin-zero{margin:0 auto;}
+.auto-height{height:auto;}
+/*-----------------------------------------
+   Combination Section: 
+  -----------------------------------------*/
+.combie-rezehe{
+	position:relative;
+	margin:0 auto;
+	height:auto;
+}
+/*-----------------------------------------
+   Shadows Section: 
+  -----------------------------------------*/
+.shadow-one{
+	-webkit-box-shadow: 0px 1px 5px rgb(26,26,26);
+	box-shadow: 0px 1px 5px rgb(26,26,26);
+}
+/*-----------------------------------------
+   Floatter Section: 
+  -----------------------------------------*/
+.float-left{float:left;}
+.float-right{float:right;}
+/*-----------------------------------------
+   Tabs Background Section: 
+  -----------------------------------------*/
+.tabs-background{ background-color:#FCFCFC;}

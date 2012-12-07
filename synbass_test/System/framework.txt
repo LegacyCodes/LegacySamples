@@ -1,0 +1,56 @@
+-root
+  ~index.html(index.php)
+  ~.htaccess(controlls url)
+  -includes{XYZ}current version
+    -css
+	~industrial.css
+	~default.css
+    -js
+	~industial.js
+	~default.js
+    -img
+	-imagesXYZ{current}
+	  ~.png,.jpg,.gif,.etc...
+
+-(name(XYZ))
+   -sources
+	~autoloader.php
+	~connections.php
+	~encryption.php
+	~sessions.php
+	~cookies.php
+	~routers.php
+	~migrations.php
+	~etc..
+   {--many projects at once--}
+   -(project_name(XYZ))
+      -manager
+	 ~manager.php -- These are
+      -source		-- the files 
+	 ~source.php  ------- to Work on
+      -output		-- most of 
+	 ~output.php  -- the time
+   
+   -configuration
+      -(project_name(XYZ))
+	  ~config_project_name.php
+      -(drivers)
+	  ~config_settings.php
+      -(database(XYZ)) -- backup directory
+	  ~database_XYZ.sql
+
+
+DirectoryIndex home.htm
+AddHandler application/x-httpd-php .htm
+
+#Redirections for non public files (Security level:    ,    )
+Redirect /resources http://system.dev/home
+
+#turn the engine on
+#Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME}\.htm !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*) http://system.dev/$1.htm [L,QSA]

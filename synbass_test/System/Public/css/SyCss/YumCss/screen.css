@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	padding:0;
+	margin:0;
+}
+
+#page-wrapper {
+	height: 1024px;
+	width: 100%;
+	min-width:960px;
+	/* [disabled]border: 1px dashed #000; */
+	position: absolute;
+}
+.leftContainer {
+	height: auto;
+	width: 960px;
+	/* [disabled]border: 1px solid #000; */
+	/* [disabled]position: relative; */
+	margin: 50px auto 0px;
+}
+
+.topMenu {
+	background: #B79797;
+	height: 30px;
+	width: 100%;
+	position: absolute;
+	min-width: 950px;
+	border-bottom: 1px solid #930;
+	border-top: 1px solid #930;
+}
+.topLogo {
+	margin: auto;
+	height: 30px;
+	width: 100px;
+	float: left;
+	/* [disabled]border: 1px dashed #000; */
+}
+.topHeaderInner {
+	height: 30px;
+	width: 95%;
+	margin: 0 auto;
+	position: relative;
+	min-width: 960px;
+	/* [disabled]border-bottom: 1px solid #930; */
+}
+.topLogo {
+	float: left;
+	height: 30px;
+	width: 170px;
+	/* [disabled]border: 1px solid #000; */
+	margin-left: 10%;
+}
+.topNavigation {
+	float: left;
+	height: 30px;
+	width: 35%;
+	/* [disabled]border: 1px solid #000; */
+	margin-left: 10px;
+}
+.topApplication {
+	float:left;
+	height: 30px;
+	width: 9%;
+	margin-left: 10px;
+	/* [disabled]border: 1px solid #000; */
+}
+.topSearch {
+	float: left;
+	height: 30px;
+	width: 20%;
+	/* [disabled]border: 1px solid #000; */
+	margin-left: 10px;
+	max-width: 225px;
+}
+.topNavigation li, a{
+	color:#CCC;
+	text-decoration: none;
+	padding:6px 5px;
+	display: inline;
+	list-style: none;
+}
+.topNavigation li:hover{
+	background:#930;
+}
+#topNavigationMenu {
+	margin-top:5px;
+	height: auto;
+	width: auto;
+	font-size:17px;
+	font: "Arial Black", Gadget, sans-serif;
+	font-weight:bolder;
+	text-align:center;
+	word-spacing:0em;
+}
+.topSearch input {
+	width: 95%;
+	margin-top: 2px;
+	margin-right: 5px;
+	margin-left: 5px;
+	height:19px;
+	border:1px solid #930;
+	padding-left:5px;
+	float: left;
+}
+.topSearch input:focus {
+	border:1px solid #930;
+	font:"Times New Roman", Times, serif;
+	font-size:13px;
+	height:19px;
+	padding-left:5px;
+}
+#searchSubmit{
+	width:25px;
+	text-align:center;
+	float:left;
+	height: 22px;
+	font-size: 12px;
+	font-family: "Times New Roman", Times, serif;
+	border-style: none;
+	color: #930;
+	background: #B79797;
+}
+.selector {
+	/* [disabled]background: #FFF; */
+	height: 25px;
+	width: 95%;
+	margin-top: 1.5px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.leftContent {
+	float: left;
+	height: auto;
+	width: 201px;
+	border-top: 1px solid #930;
+	border-bottom: 1px solid #930;
+	border-left: 1px solid #930;
+	padding: 5px;
+}
+.middleContent {
+	float: right;
+	height: auto;
+	width: 726px;
+	border: 1px solid #930;
+	padding: 10px;
+}
+.rightContent {
+	float: left;
+	height: 600px;
+	width: 110px;
+	margin: 10px 10px 10px 0px;
+	border: 1px solid #000;
+}
+.middleContentTop {
+	height: 250px;
+	width: 722px;
+	/* [disabled]border: 1px solid #000; */
+}
+.middleContentMiddle {
+	height: 200px;
+	margin-top:10px;
+	width: 722px;
+	/* [disabled]border: 1px solid #000; */
+}
+.middleContentBottom {
+	height: 300px;
+	margin-top:10px;
+	width: 722px;
+	/* [disabled]border: 1px solid #000; */
+	/* [disabled]margin-bottom: 10px; */
+}
+.leftContentTop {
+	height: 200px;
+	width: 199px;
+	border: 1px solid #000;
+}
+.leftContentMiddle {
+	margin-top:5px;
+	height: 200px;
+	width: 199px;
+	border: 1px solid #000;
+}
+.slider {
+	background: #000;
+	height: 250px;
+	width: 550px;
+	float: left;
+}
+.nextToSlider {
+	float: right;
+	height: 228px;
+	width: 150px;
+	border: 1px solid #000;
+	padding: 10px;
+}
+.contentMiddleInfo {
+	height: 199px;
+	width: 236px;
+	border: 1px solid #000;
+	float: left;
+}
+.contentMiddleProducts {
+	height: 199px;
+	width: 230px;
+	margin-left: 10px;
+	float: left;
+	border: 1px solid #000;
+}
+.contentCompany {
+	float: left;
+	height: 300px;
+	width: 350px;
+	border:1px solid #000;
+}
+.sideInformation {
+	height: 300px;
+	width: 173px;
+	margin-left: 10px;
+	float: left;
+	border: 1px solid #000;
+}
